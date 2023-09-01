@@ -1,13 +1,13 @@
-import React, {Component, useState} from "react";
+
+import React from 'react';
 import '../styles/App.css';
+import LoginForm from './LoginForm';
 
-const App = () => {
+function App() {
   return (
-    <div id="main">
-      <p>I am learning React. My life is getting better.</p>
+    <div className="App">
+      <LoginForm />
     </div>
-  )
+  );
 }
-
-
 export default App;
